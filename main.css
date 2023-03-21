@@ -23,6 +23,17 @@ html {
     color: #9f0020;
     text-shadow: 3px 3px 1px black;
   }
+
+  h1 {
+    text-shadow: 1px 1px 1px gray; /* 그림자 효과를 추가합니다. */
+    transition: all 0.2s ease-in-out; /* 전환 효과를 설정합니다. */
+  }
+  
+  h1:hover {
+    transform: translate3d(5px, 5px, 0); /* 3D 이동 효과를 적용합니다. */
+    /* 필요에 따라 다른 스타일을 추가로 설정합니다. */
+  }
+  
   
   p, li {
     line-height: 2;
