@@ -12,6 +12,7 @@ html {
     background-color: #FF9500;
     padding: 0 20px 20px 20px;
     border: 5px solid black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   
   h1 {
@@ -43,7 +44,7 @@ html {
   
   th {
     padding: 10px;
-    border-bottom: 1px dashed;
+    border-bottom: 1px dotted;
   }
   
   td {
@@ -54,8 +55,16 @@ html {
     display: block;
     margin: 0 auto;
     box-shadow: 7px 7px 1px black;
+    opacity: 0.5;
   }
   
   a:hover {
     color: #c00;
   }
+
+  button {
+    background-color: red; /* 적용할 색상 값을 설정합니다. */
+    color: white; /* 버튼의 텍스트 색상을 설정합니다. */
+    /* 필요한 다른 스타일을 추가로 설정합니다. */
+  }
+  
