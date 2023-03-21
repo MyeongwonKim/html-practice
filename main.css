@@ -43,8 +43,9 @@ html {
   }
   
   th {
+    background-color: lightgray;
     padding: 10px;
-    border-bottom: 1px dotted;
+    border: 1px double yellow;
   }
   
   td {
